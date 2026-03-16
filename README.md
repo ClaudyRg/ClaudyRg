@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <p align="center">Hi there! I'm ClaudyRg 👋</p>
 
-## Getting Started
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7147ED&center=true&vCenter=true&width=500&lines=Full-stack+Developer;Developer+Of+StarLight+Network;Owner+Of+StarLight+Network;Powered+by+Next.js" alt="Typing SVG" /></a>
+</p>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🌌 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I am a **Dynamic Developer** based in **Indonesia** 🇮🇩, driven by a passion for creating unique digital experiences. My journey is defined by pushing the limits of the **Minecraft** ecosystem (PocketMine-MP) and building sleek web applications with **Next.js**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Through collaboration and constant iteration, I've built some pretty "Wah" systems:
+- 🛠️ **StarLight Network**: Architecture and core systems.
+- 🌐 **Modern Web**: Crafting high-performance websites using the latest tech stacks.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I don't just write code; I design experiences that *wow* players.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 🛠️ Skills & Technologies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php,js,java,py,nextjs,react,tailwind,git,github,ps,blender&theme=dark" />
+  </a>
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 📊 GitHub Statistics
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="ClaudyRg's GitHub stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClaudyRg&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Langs" />
+</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ClaudyRg&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📫 Connect with Me
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=instagram,discord&theme=dark" />
+  </a>
+</p>
+
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=ClaudyRg&color=7147ED&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>

@@ -1,103 +1,100 @@
 @import "tailwindcss";
 
-@theme inline {
-  --color-galaxy-black: #020617;
-  --color-galaxy-deep-blue: #0f172a;
-  --color-galaxy-blue: #3b82f6;
-  --color-galaxy-cyan: #06b6d4;
-  --color-galaxy-sky: #7dd3fc;
+@theme {
+  --color-blossom-black: #0d090a;
+  --color-blossom-deep: #1a1415;
+  --color-blossom-pink: #fce4ec;
+  --color-blossom-accent: #f06292;
+  --color-blossom-teal: #4db6ac;
+  --color-blossom-text: #fff0f3;
+  --color-blossom-text-muted: #d4a5b2;
   
-  --color-galaxy-text: #f1f5f9;
-  --color-galaxy-text-muted: #94a3b8;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Outfit", sans-serif;
 
-  --radius-galaxy-sm: 0.75rem;
-  --radius-galaxy-md: 1rem;
-  --radius-galaxy-lg: 1.5rem;
+  --radius-blossom-sm: 1rem;
+  --radius-blossom-md: 1.5rem;
+  --radius-blossom-lg: 2rem;
 
-  --shadow-galaxy-glow: 0 0 25px 2px rgba(59, 130, 246, 0.4);
-  --shadow-galaxy-cyan: 0 0 30px 5px rgba(6, 182, 212, 0.3);
+  --shadow-blossom-glow: 0 0 25px 2px rgba(240, 98, 146, 0.3);
+  --shadow-blossom-teal: 0 0 30px 5px rgba(77, 182, 172, 0.2);
 
-  --animate-star-blink: star-blink 3.5s infinite alternate;
-  --animate-galaxy-float: galaxy-float 12s ease-in-out infinite;
+  --animate-petal-drift: petal-drift 20s linear infinite;
+  --animate-petal-sway: petal-sway 4s ease-in-out infinite alternate;
 
-  @keyframes star-blink {
-    0% { opacity: 0.2; transform: scale(0.7); }
-    100% { opacity: 0.9; transform: scale(1.1); }
+  @keyframes petal-drift {
+    0% { transform: translateY(-10vh) translateX(0) rotate(0deg); opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { transform: translateY(110vh) translateX(100px) rotate(360deg); opacity: 0; }
   }
 
-  @keyframes galaxy-float {
-    0%, 100% { transform: translateY(0) rotate(0); }
-    50% { transform: translateY(-20px) rotate(1deg); }
+  @keyframes petal-sway {
+    0% { transform: translateX(-20px) rotate(-10deg); }
+    100% { transform: translateX(20px) rotate(10deg); }
   }
 }
 
-:root {
-  --background: var(--color-galaxy-black);
-  --foreground: var(--color-galaxy-text);
+@layer base {
+  :root {
+    --background: var(--color-blossom-black);
+    --foreground: var(--color-blossom-text);
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    @apply font-body font-light overflow-x-hidden min-h-screen;
+  }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-soft), 'Quicksand', sans-serif;
-  font-weight: 400;
-  overflow-x: hidden;
-  min-height: 100vh;
-}
-
-.star-background {
+.garden-background {
   position: fixed;
   inset: 0;
   z-index: -2;
-  background: radial-gradient(circle at center, #020617 0%, #000000 100%);
+  background: radial-gradient(circle at center, #1a1415 0%, #0d090a 100%);
   overflow: hidden;
 }
 
-.star {
-  position: absolute;
-  background: white;
-  border-radius: 50%;
-  opacity: 0.5;
-  filter: blur(0.5px);
-}
-
-.galaxy-mesh {
+.blossom-mesh {
   position: fixed;
   inset: 0;
   z-index: -1;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0, transparent 40%),
-    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.12) 0, transparent 40%);
+    radial-gradient(at 0% 0%, rgba(240, 98, 146, 0.08) 0, transparent 40%),
+    radial-gradient(at 100% 100%, rgba(77, 182, 172, 0.08) 0, transparent 40%);
   filter: blur(100px);
 }
 
-.galaxy-glass {
-  background: rgba(15, 23, 42, 0.7);
+.blossom-glass {
+  background: rgba(26, 20, 21, 0.7);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.6);
 }
 
-.neon-border-blue {
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.neon-border-pink {
+  border: 1px solid rgba(240, 98, 146, 0.15);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.neon-border-blue:hover {
-  border-color: var(--color-galaxy-blue);
-  box-shadow: var(--shadow-galaxy-glow);
+.neon-border-pink:hover {
+  border-color: var(--color-blossom-accent);
+  box-shadow: var(--shadow-blossom-glow);
 }
 
-.galaxy-button {
-  @apply px-10 py-4 rounded-galaxy-md font-bold transition-all duration-300 active:scale-95;
-  background: linear-gradient(135deg, var(--color-galaxy-blue), var(--color-galaxy-cyan));
-  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+.blossom-button {
+  @apply px-10 py-4 rounded-blossom-md font-medium transition-all duration-500 active:scale-95;
+  background: linear-gradient(135deg, var(--color-blossom-accent), #ec407a);
+  box-shadow: 0 4px 15px rgba(240, 98, 146, 0.2);
   color: white;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+  @apply font-body;
 }
 
-.galaxy-button:hover {
-  box-shadow: 0 0 50px 10px rgba(59, 130, 246, 0.4);
-  transform: translateY(-3px);
+.blossom-button:hover {
+  box-shadow: 0 0 40px rgba(240, 98, 146, 0.4);
+  transform: translateY(-2px);
+  filter: brightness(1.1);
 }

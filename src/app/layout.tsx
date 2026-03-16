@@ -1,17 +1,21 @@
 import type { Metadata } from "next";
-import { Quicksand } from "next/font/google";
+import { Playfair_Display, Outfit } from "next/font/google";
 import "./globals.css";
-import { Starfield } from "@/components/Starfield";
+import { Petals } from "@/components/Petals";
 
-const quicksand = Quicksand({ 
+const playfair = Playfair_Display({ 
   subsets: ["latin"],
-  weight: ["300", "400", "500"],
-  variable: "--font-soft"
+  variable: "--font-heading" 
+});
+
+const outfit = Outfit({ 
+  subsets: ["latin"],
+  variable: "--font-body" 
 });
 
 export const metadata = {
-  title: "ClauRg | Grand Architect",
-  description: "Visionary Full Stack Developer shaping digital universes.",
+  title: "ClauRg | Blossom Architect",
+  description: "A digital blossom in the vast galaxy, unfolding with singular vision.",
 };
 
 export default function RootLayout({
@@ -21,9 +25,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark scroll-smooth">
-      <body className={`${quicksand.variable} antialiased font-soft`}>
-        <div className="star-background" />
-        <div className="galaxy-mesh" />
+      <body className={`${playfair.variable} ${outfit.variable} antialiased font-body`}>
+        <div className="garden-background" />
+        <div className="blossom-mesh" />
+        <Petals />
         {children}
       </body>
     </html>
