@@ -51,13 +51,13 @@ export function Hero() {
           <Sparkles size={14} className="text-galaxy-cyan" /> The Grand Architect
         </div>
         
-        <h1 className="text-7xl md:text-9xl font-light mb-8 pb-4 bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-galaxy-sky/40 tracking-tight leading-[1.1] drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">
+        <h1 className="text-7xl md:text-9xl font-medium mb-8 pb-4 bg-clip-text text-transparent bg-gradient-to-b from-white via-white/80 to-galaxy-sky/30 tracking-normal leading-[1.1] drop-shadow-[0_0_20px_rgba(255,255,255,0.05)]">
           ClauRg
         </h1>
         
         {/* Magnetic Persona Bio */}
         <div className="max-w-3xl mx-auto mb-14 px-6 text-center">
-          <p className="text-2xl md:text-3xl text-white font-light leading-relaxed italic mb-8 opacity-90 tracking-wide">
+          <p className="text-2xl md:text-3xl text-white font-light leading-relaxed italic mb-8 opacity-90 tracking-widest">
             "A digital blossom in the vast galaxy, unfolding with singular vision." 🌸
           </p>
           <p className="text-lg md:text-xl text-galaxy-text-muted font-light leading-relaxed max-w-2xl mx-auto">

@@ -39,8 +39,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-soft), 'Outfit', sans-serif;
-  font-weight: 300;
+  font-family: var(--font-soft), 'Quicksand', sans-serif;
+  font-weight: 400;
   overflow-x: hidden;
   min-height: 100vh;
 }

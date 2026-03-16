@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import { Starfield } from "@/components/Starfield";
 
-const outfit = Outfit({ 
+const quicksand = Quicksand({ 
   subsets: ["latin"],
   weight: ["300", "400", "500"],
   variable: "--font-soft"
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark scroll-smooth">
-      <body className={`${outfit.variable} antialiased font-soft`}>
+      <body className={`${quicksand.variable} antialiased font-soft`}>
         <div className="star-background" />
         <div className="galaxy-mesh" />
         {children}
