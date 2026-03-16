@@ -1,26 +1,103 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-galaxy-black: #020617;
+  --color-galaxy-deep-blue: #0f172a;
+  --color-galaxy-blue: #3b82f6;
+  --color-galaxy-cyan: #06b6d4;
+  --color-galaxy-sky: #7dd3fc;
+  
+  --color-galaxy-text: #f1f5f9;
+  --color-galaxy-text-muted: #94a3b8;
+
+  --radius-galaxy-sm: 0.75rem;
+  --radius-galaxy-md: 1rem;
+  --radius-galaxy-lg: 1.5rem;
+
+  --shadow-galaxy-glow: 0 0 25px 2px rgba(59, 130, 246, 0.4);
+  --shadow-galaxy-cyan: 0 0 30px 5px rgba(6, 182, 212, 0.3);
+
+  --animate-star-blink: star-blink 3.5s infinite alternate;
+  --animate-galaxy-float: galaxy-float 12s ease-in-out infinite;
+
+  @keyframes star-blink {
+    0% { opacity: 0.2; transform: scale(0.7); }
+    100% { opacity: 0.9; transform: scale(1.1); }
+  }
+
+  @keyframes galaxy-float {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    50% { transform: translateY(-20px) rotate(1deg); }
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: var(--color-galaxy-black);
+  --foreground: var(--color-galaxy-text);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-soft), 'Outfit', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.star-background {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(circle at center, #020617 0%, #000000 100%);
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  filter: blur(0.5px);
+}
+
+.galaxy-mesh {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0, transparent 40%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.12) 0, transparent 40%);
+  filter: blur(100px);
+}
+
+.galaxy-glass {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+}
+
+.neon-border-blue {
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.neon-border-blue:hover {
+  border-color: var(--color-galaxy-blue);
+  box-shadow: var(--shadow-galaxy-glow);
+}
+
+.galaxy-button {
+  @apply px-10 py-4 rounded-galaxy-md font-bold transition-all duration-300 active:scale-95;
+  background: linear-gradient(135deg, var(--color-galaxy-blue), var(--color-galaxy-cyan));
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  color: white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.galaxy-button:hover {
+  box-shadow: 0 0 50px 10px rgba(59, 130, 246, 0.4);
+  transform: translateY(-3px);
 }
