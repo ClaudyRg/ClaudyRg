@@ -31,12 +31,6 @@ I don't just code; I cultivate digital universes where every pixel has a soul.
 ### 📊 Garden Growth (Stats)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&bg_color=0d1117&title_color=87ceeb&text_color=ffffff&icon_color=ff69b4&hide_border=true&count_private=true" alt="ClaudyRg's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClaudyRg&layout=compact&bg_color=0d1117&title_color=87ceeb&text_color=ffffff&icon_color=ff69b4&hide_border=true&count_private=true" alt="Top Langs" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ClaudyRg&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
