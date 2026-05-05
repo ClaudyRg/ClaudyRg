@@ -22,7 +22,7 @@ I don't just code; I cultivate digital universes where every pixel has a soul.
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,js,java,py,nextjs,react,tailwind,ts,git,github,ps,blender,go&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=php,js,java,py,nextjs,react,tailwind,ts,go,git,github,ps,blender&theme=dark" />
   </a>
 </p>
 
