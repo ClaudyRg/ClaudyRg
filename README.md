@@ -6,11 +6,11 @@
 
 ---
 
-### 🌌 The Blossom Vibe
+### ✨ About Me
 
-Just a **Digital Blossom** out here in **Indonesia** 🇮🇩, keeping it low-key while building high-key high-performance stuff. I’m deep into the **Minecraft** ecosystem (PocketMine-MP) and I honestly just live for those clean, buttery-smooth **Next.js** apps. 
+I'm a developer from **Indonesia** 🇮🇩 who loves building clean and high-performance stuff. Most of my time is spent diving into **PocketMine-MP** logic, crafting smooth web experiences with **Next.js**, or building scalable backends with **Go**.
 
-I don't just ship code, I cultivate entire worlds. No cap, every pixel's got a soul here. 
+I don't just ship code; I build digital universes. To me, it’s not just about making it work—it’s about making it feel right. If it’s not fast and aesthetic, it’s not finished. 
 
 Currently leveling up:
 - 🛠️ **[StarLight Network](https://github.com/ClaudyRg/StarLight-BedWars)**: A whole garden of logic and insane optimizations.
