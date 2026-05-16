@@ -1,7 +1,7 @@
 # <p align="center">Yo, I'm ClaudyRg ✌️</p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=87CEEB&center=true&vCenter=true&width=500&lines=Blossom+Architect;Full-stack+Dev;Cooking+Digital+Universes;Next.js+Simp" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=87CEEB&center=true&vCenter=true&width=500&lines=Blossom+Architect;Full-stack+Developer;Cultivating+Digital+Universes;Crafting+with+Go+%26+Next.js" alt="Typing SVG" /></a>
 </p>
 
 ---
