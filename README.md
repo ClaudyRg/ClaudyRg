@@ -85,6 +85,6 @@ I am a **Fullstack Architect & Tactical Engineer** crafting robust, high-perform
 
 <p align="center">
   <i>"Precision in code. Excellence in execution."</i><br/>
-  🖥️ TACTICAL DESIGN BY <b>[Yunna](https://github.com/ClaudyRg)</b> & ENGINEERED BY <b>[ClaudyRg](https://github.com/ClaudyRg)</b>
+  🖥️ TACTICAL DESIGN BY <b>[Yunna](https://github.com/Kwacyy)</b> & ENGINEERED BY <b>[ClaudyRg](https://github.com/ClaudyRg)</b>
 </p>
 
