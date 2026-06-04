@@ -1,3 +1,5 @@
+# 🌌 ClaudyRg
+
 <div align="center">
   <!-- Custom Cyberpunk-style Logo SVG -->
   <img src="claudyyyrg_logo.svg" alt="ClaudyyyRg" width="450" />
@@ -74,27 +76,25 @@ The duo behind the vision, design, and execution of StarLight Network:
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%">
-      <div align="center">
-        <a href="https://github.com/ClaudyRg">
-          <img src="https://github.com/ClaudyRg.png" width="120px" alt="Claudy" style="border-radius: 50%; display: block; margin: 0 auto 10px auto;" />
-          <sub><b>Claudy</b></sub>
-        </a>
-        <br /><br />
-        👑 <b>Lead Developer & Architect</b><br />
-        <i>Lead architect in charge of core network systems, high-concurrency game nodes, web applications, and backend database integrations.</i>
-      </div>
+    <td align="center" width="50%">
+      <a href="https://github.com/ClaudyRg">
+        <img src="https://github.com/ClaudyRg.png" width="120px" alt="Claudy" style="border-radius: 50%;" />
+        <br />
+        <sub><b>Claudy</b></sub>
+      </a>
+      <br />
+      👑 <b>Lead Developer & Architect</b><br />
+      <i>Lead architect in charge of core network systems, high-concurrency game nodes, web applications, and backend database integrations.</i>
     </td>
-    <td width="50%">
-      <div align="center">
-        <a href="https://github.com/Kwacyy">
-          <img src="https://github.com/Kwacyy.png" width="120px" alt="Valeska" style="border-radius: 50%; display: block; margin: 0 auto 10px auto;" />
-          <sub><b>Valeska</b></sub>
-        </a>
-        <br /><br />
-        🌸 <b>Co-Developer & Interface Designer</b><br />
-        <i>Creative designer managing custom asset styling, fluid in-game UI menus, elegant web interfaces, refined UI/UX flows, and stylish visual identities across digital platforms.</i>
-      </div>
+    <td align="center" width="50%">
+      <a href="https://github.com/Kwacyy">
+        <img src="https://github.com/Kwacyy.png" width="120px" alt="Valeska" style="border-radius: 50%;" />
+        <br />
+        <sub><b>Valeska</b></sub>
+      </a>
+      <br />
+      🌸 <b>Co-Developer & Interface Designer</b><br />
+      <i>Creative designer managing custom asset styling, fluid in-game UI menus, elegant web interfaces, refined UI/UX flows, and stylish visual identities across digital platforms.</i>
     </td>
   </tr>
 </table>
@@ -103,18 +103,4 @@ The duo behind the vision, design, and execution of StarLight Network:
 
 ## 📬 Connect With Me
 
-<p align="left">
-  <a href="mailto:claudyy.rg@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30" valign="middle" alt="Gmail" /></a>
-  &nbsp;
-  <b>Email:</b> <code>claudyy.rg@gmail.com</code>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://discord.com/users/clau.rg77"><img src="https://skillicons.dev/icons?i=discord" width="30" valign="middle" alt="Discord" /></a>
-  &nbsp;
-  <b>Discord:</b> <code>clau.rg77</code>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://instagram.com/clau.rg77"><img src="https://skillicons.dev/icons?i=instagram" width="30" valign="middle" alt="Instagram" /></a>
-  &nbsp;
-  <b>Instagram:</b> <code>clau.rg77</code>
-</p>
-
-
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:claudyy.rg@gmail.com) **Email:** <code>claudyy.rg@gmail.com</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Discord](https://skillicons.dev/icons?i=discord)](https://discord.com/users/clau.rg77) **Discord:** <code>clau.rg77</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/clau.rg77) **Instagram:** <code>clau.rg77</code>
