@@ -1,10 +1,6 @@
-# 🌌 ClaudyRg
-
 <div align="center">
-  <!-- Custom Cyberpunk-style Logo SVG -->
   <img src="claudyyyrg_logo.svg" alt="ClaudyyyRg" width="450" />
 
-  <!-- Dynamic Typing SVG using Orbitron -->
   <p align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Go+%26+PHP+Systems+Developer;Next.js+%26+React+Frontend+Engineer;3D+Low-Poly+Asset+Modeler" alt="Typing SVG" />
   </p>
