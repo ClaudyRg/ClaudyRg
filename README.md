@@ -1,6 +1,8 @@
 <div align="center">
+  <!-- Custom Cyberpunk-style Logo SVG -->
   <img src="claudyyyrg_logo.svg" alt="ClaudyyyRg" width="450" />
 
+  <!-- Dynamic Typing SVG using Orbitron -->
   <p align="center">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Go+%26+PHP+Systems+Developer;Next.js+%26+React+Frontend+Engineer;3D+Low-Poly+Asset+Modeler" alt="Typing SVG" />
   </p>
@@ -53,11 +55,17 @@ A premium, distributed Minecraft Bedrock network architecture. I design and main
 ## 📊 Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&theme=dracula&locale=en" height="150" alt="stats card" />
+  <a href="https://github.com/ClaudyRg">
+    <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&theme=dracula&locale=en&v=1" height="150" alt="stats card" />
+  </a>
   &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com?user=ClaudyRg&theme=dracula" height="150" alt="streak card" />
+  <a href="https://github.com/ClaudyRg">
+    <img src="https://streak-stats.demolab.com?user=ClaudyRg&theme=dracula&v=1" height="150" alt="streak card" />
+  </a>
   &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClaudyRg&layout=compact&theme=dracula" height="150" alt="languages card" />
+  <a href="https://github.com/ClaudyRg">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ClaudyRg&layout=compact&theme=dracula&v=1" height="150" alt="languages card" />
+  </a>
 </p>
 
 <p align="center">
@@ -99,4 +107,18 @@ The duo behind the vision, design, and execution of StarLight Network:
 
 ## 📬 Connect With Me
 
-[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:claudyy.rg@gmail.com) **Email:** <code>claudyy.rg@gmail.com</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Discord](https://skillicons.dev/icons?i=discord)](https://discord.com/users/clau.rg77) **Discord:** <code>clau.rg77</code> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/clau.rg77) **Instagram:** <code>clau.rg77</code>
+<p align="left">
+  <a href="mailto:claudyy.rg@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30" align="middle" alt="Gmail" /></a>
+  &nbsp;
+  <b>Email:</b> <code>claudyy.rg@gmail.com</code>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/users/clau.rg77"><img src="https://skillicons.dev/icons?i=discord" width="30" align="middle" alt="Discord" /></a>
+  &nbsp;
+  <b>Discord:</b> <code>clau.rg77</code>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://instagram.com/clau.rg77"><img src="https://skillicons.dev/icons?i=instagram" width="30" align="middle" alt="Instagram" /></a>
+  &nbsp;
+  <b>Instagram:</b> <code>clau.rg77</code>
+</p>
+
+
