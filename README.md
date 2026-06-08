@@ -55,24 +55,11 @@ A premium, distributed Minecraft Bedrock network architecture. I design and main
 ## 📊 Performance Metrics
 
 <p align="center">
-  <a href="https://github.com/ClaudyRg">
-    <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&theme=dracula&locale=en&v=1" height="150" alt="stats card" />
-  </a>
   &nbsp;&nbsp;
   <a href="https://github.com/ClaudyRg">
     <img src="https://streak-stats.demolab.com?user=ClaudyRg&theme=dracula&v=1" height="150" alt="streak card" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/ClaudyRg">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ClaudyRg&layout=compact&theme=dracula&v=1" height="150" alt="languages card" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ClaudyRg&theme=dracula" width="100%" alt="activity graph" />
-</p>
-
-
+  
 ---
 
 ## 👥 Founders & Core Developers
