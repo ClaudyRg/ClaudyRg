@@ -55,10 +55,13 @@ A premium, distributed Minecraft Bedrock network architecture. I design and main
 ## 📊 Performance Metrics
 
 <p align="center">
-  &nbsp;&nbsp;
   <a href="https://github.com/ClaudyRg">
     <img src="https://streak-stats.demolab.com?user=ClaudyRg&theme=dracula&v=1" height="150" alt="streak card" />
   </a>
+  <br><br> <a> 
+    <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&theme=dracula&show_icons=true&hide_border=false&count_private=true"> 
+  </a>
+</p>
   
 ---
 
