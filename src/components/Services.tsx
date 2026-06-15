@@ -38,7 +38,7 @@ const SERVICES = [
 
 export function Services() {
   return (
-    <section id="services" className="relative py-32 px-6">
+    <section id="services" className="relative py-32 px-6 bg-[#0C0918]/60">
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <motion.div

@@ -131,19 +131,18 @@
   pointer-events: none;
 }
 
-/* === GLASS CARDS === */
+/* === CARDS (anti-glassmorphism: solid, intentional, hand-crafted feel) === */
 .glass-card {
-  background: rgba(26, 23, 37, 0.6);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(107, 92, 231, 0.12);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  background: #161225;
+  border: 1px solid #2E2A3E;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
 }
 
 .glass-card:hover {
-  border-color: rgba(107, 92, 231, 0.35);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(107, 92, 231, 0.1);
-  transform: translateY(-4px);
+  border-color: rgba(107, 92, 231, 0.3);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
 }
 
 /* === TYPOGRAPHY HELPERS === */
@@ -192,11 +191,10 @@
 
 /* === BADGE === */
 .badge {
-  @apply inline-flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest;
-  background: rgba(107, 92, 231, 0.08);
-  border: 1px solid rgba(107, 92, 231, 0.15);
+  @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest;
+  background: #1E1B29;
+  border: 1px solid #2E2A3E;
   color: var(--color-purple-soft);
-  backdrop-filter: blur(10px);
 }
 
 /* === WAVY UNDERLINE === */

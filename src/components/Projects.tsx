@@ -11,6 +11,8 @@ const PROJECTS = [
     icon: <Cpu size={22} />,
     tech: ["PHP", "Redis", "MySQL", "Binary Core"],
     color: "from-purple-primary to-purple-bright",
+    github: "https://github.com/STARLIGHT-NETWORK-ID",
+    link: "https://github.com/STARLIGHT-NETWORK-ID",
   },
   {
     title: "Web Portal",
@@ -19,6 +21,8 @@ const PROJECTS = [
     icon: <Globe size={22} />,
     tech: ["Next.js", "Tailwind", "Framer Motion"],
     color: "from-purple-bright to-purple-soft",
+    github: "https://github.com/ClaudyRg/ClaudyRg",
+    link: "https://github.com/ClaudyRg/ClaudyRg",
   },
   {
     title: "Ghost-Auth Protocol",
@@ -27,6 +31,8 @@ const PROJECTS = [
     icon: <Shield size={22} />,
     tech: ["Custom Protocol", "JWT", "Encryption"],
     color: "from-purple-soft to-accent-warm",
+    github: "https://github.com/ClaudyRg",
+    link: "https://github.com/ClaudyRg",
   },
 ];
 
@@ -93,7 +99,7 @@ export function Projects() {
                   {project.tech.map((t) => (
                     <span
                       key={t}
-                      className="text-[9px] font-bold px-3 py-1.5 rounded-full bg-purple-primary/8 border border-purple-primary/15 text-purple-soft uppercase tracking-wider"
+                      className="text-[9px] font-bold px-3 py-1.5 rounded-full bg-[#1E1B29] border border-night-border text-purple-soft uppercase tracking-wider"
                     >
                       {t}
                     </span>
@@ -102,10 +108,10 @@ export function Projects() {
 
                 {/* Links */}
                 <div className="flex gap-5 pt-6 border-t border-night-border">
-                  <a href="#" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
                     <Github size={18} />
                   </a>
-                  <a href="#" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
                     <ExternalLink size={18} />
                   </a>
                 </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Globe } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 
 const FOOTER_SERVICES = ["Full Stack Dev", "System Design", "UI/UX", "3D Art"];
 
@@ -25,7 +25,7 @@ export function Footer() {
           <p className="text-text-muted text-lg mb-8 font-light">
             Ready to turn your vision into reality? Let&apos;s connect.
           </p>
-          <a href="mailto:claudy.dev@starlight.net" className="btn-primary inline-flex items-center gap-3">
+          <a href="mailto:claudyy.rg@gmail.com" className="btn-primary inline-flex items-center gap-3">
             <Mail size={18} />
             Get In Touch
           </a>
@@ -72,10 +72,10 @@ export function Footer() {
           {/* Social links */}
           <div className="flex items-center gap-5">
             {[
-              { icon: <Github size={18} />, href: "#", label: "GitHub" },
-              { icon: <Linkedin size={18} />, href: "#", label: "LinkedIn" },
-              { icon: <Mail size={18} />, href: "mailto:claudy.dev@starlight.net", label: "Email" },
-              { icon: <Globe size={18} />, href: "#", label: "Website" },
+              { icon: <Github size={18} />, href: "https://github.com/ClaudyRg", label: "GitHub" },
+              { icon: <Linkedin size={18} />, href: "https://linkedin.com/in/claudyrg", label: "LinkedIn" },
+              { icon: <Mail size={18} />, href: "mailto:claudyy.rg@gmail.com", label: "Email" },
+              { icon: <Instagram size={18} />, href: "https://www.instagram.com/clau.rg77/", label: "Instagram" },
             ].map((social) => (
               <a
                 key={social.label}
