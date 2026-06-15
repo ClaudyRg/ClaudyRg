@@ -1,103 +1,118 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Sparkles, Cherry, Shield, Globe, Terminal, Cpu } from "lucide-react";
+import { ExternalLink, Github, Cpu, Globe, Shield } from "lucide-react";
 
 const PROJECTS = [
   {
     title: "StarLight Network",
-    category: "Binary Core / Server",
-    desc: "A custom-engineered Minecraft garden. Handcrafted optimizations and zero-lag infrastructure for thousands of travelers.",
-    icon: <Cpu size={20} className="text-blossom-accent" />,
-    link: "#",
-    tech: ["PHP", "Binary Core", "Redis", "MySQL"],
+    category: "Server Infrastructure",
+    desc: "A custom-engineered Minecraft ecosystem. Handcrafted optimizations and zero-lag infrastructure serving thousands of players.",
+    icon: <Cpu size={22} />,
+    tech: ["PHP", "Redis", "MySQL", "Binary Core"],
+    color: "from-purple-primary to-purple-bright",
   },
   {
-    title: "Blossom Web Portal",
+    title: "Web Portal",
     category: "Web Architecture",
-    desc: "A Next.js bridge between reality and the digital garden. High-speed sync and premium floral aesthetics.",
-    icon: <Globe size={20} className="text-blossom-teal" />,
-    link: "#",
-    tech: ["Next.js 15", "Tailwind", "Framer Motion"],
+    desc: "A Next.js bridge between reality and the digital garden. Blazing-fast performance with premium aesthetic design.",
+    icon: <Globe size={22} />,
+    tech: ["Next.js", "Tailwind", "Framer Motion"],
+    color: "from-purple-bright to-purple-soft",
   },
   {
     title: "Ghost-Auth Protocol",
-    category: "Security Protocol",
-    desc: "Proprietary verification system. Zero third-party middlemen, pure architectural security for astral synchronization.",
-    icon: <Shield size={20} className="text-blossom-pink" />,
-    link: "#",
-    tech: ["Legacy Sys", "Secure Handshake"],
+    category: "Security System",
+    desc: "Proprietary verification system. Zero third-party dependencies — pure architectural security for seamless auth.",
+    icon: <Shield size={22} />,
+    tech: ["Custom Protocol", "JWT", "Encryption"],
+    color: "from-purple-soft to-accent-warm",
   },
 ];
 
 export function Projects() {
   return (
-    <section className="py-32 px-6 max-w-7xl mx-auto relative">
-      <div className="text-center mb-24">
+    <section id="projects" className="relative py-32 px-6">
+      <div className="max-w-6xl mx-auto">
+        {/* Section header */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blossom-accent/5 border border-blossom-accent/10 text-blossom-pink text-[10px] font-bold uppercase tracking-[0.2em] mb-6 font-body"
+          className="text-center mb-20"
         >
-          <Cherry size={12} className="text-blossom-accent" /> The Archives
+          <span className="badge mb-6 inline-block">Projects</span>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-black text-white mb-6 leading-tight">
+            Architectural{" "}
+            <span className="text-gradient-purple">Masterpieces</span>
+          </h2>
+          <p className="text-text-secondary text-lg max-w-2xl mx-auto font-light leading-relaxed">
+            The heavy artillery of my digital arsenal — where pure code meets creative vision.
+          </p>
         </motion.div>
-        <h2 className="text-4xl md:text-6xl font-heading font-medium text-white mb-6">
-          Architectural Masterpieces
-        </h2>
-        <p className="text-blossom-text-muted font-heading italic text-lg max-w-2xl mx-auto opacity-80">
-          The heavy artillery of my digital arsenal—where pure code meets the softest vibes.
-        </p>
-      </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {PROJECTS.map((project, i) => (
-          <motion.div
-            key={project.title}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: i * 0.2 }}
-            className="group relative"
-          >
-            <div className="blossom-glass p-10 rounded-blossom-lg neon-border-pink h-full flex flex-col items-start overflow-hidden hover:bg-white/[0.03] transition-all duration-500">
-              <div className="absolute top-0 right-0 p-8 opacity-[0.05] group-hover:opacity-[0.1] transition-opacity">
-                {project.icon}
-              </div>
-              
-              <div className="mb-8 p-3.5 rounded-blossom-sm bg-blossom-accent/5 border border-blossom-accent/10 text-blossom-accent shadow-lg shadow-pink-500/5">
-                {project.icon}
-              </div>
-              
-              <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-blossom-teal mb-3 font-body">
-                {project.category}
-              </p>
-              <h3 className="text-2xl font-heading font-medium mb-4 text-white group-hover:text-blossom-accent transition-colors">
-                {project.title}
-              </h3>
-              <p className="text-sm font-light text-blossom-text-muted leading-relaxed mb-8 flex-grow font-body">
-                {project.desc}
-              </p>
-              
-              <div className="flex flex-wrap gap-2 mb-10">
-                {project.tech.map((t) => (
-                  <span key={t} className="text-[9px] font-bold px-2.5 py-1 rounded bg-blossom-accent/5 border border-blossom-accent/10 text-blossom-pink uppercase tracking-tighter font-body">
-                    {t}
-                  </span>
-                ))}
-              </div>
+        {/* Project cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {PROJECTS.map((project, i) => (
+            <motion.div
+              key={project.title}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: i * 0.15 }}
+              className="group relative"
+            >
+              <div className="glass-card rounded-2xl p-8 h-full flex flex-col overflow-hidden relative">
+                {/* Background icon watermark */}
+                <div className="absolute -top-4 -right-4 text-purple-primary/[0.04] group-hover:text-purple-primary/[0.08] transition-colors">
+                  <div className="scale-[4]">{project.icon}</div>
+                </div>
 
-              <div className="flex gap-6 w-full pt-8 border-t border-white/5">
-                <a href={project.link} className="text-blossom-text-muted hover:text-white transition-all transform hover:scale-110">
-                  <Github size={18} />
-                </a>
-                <a href={project.link} className="text-blossom-text-muted hover:text-white transition-all transform hover:scale-110">
-                  <ExternalLink size={18} />
-                </a>
+                {/* Icon badge */}
+                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${project.color} flex items-center justify-center text-white mb-6 shadow-lg shadow-purple-primary/20 group-hover:scale-110 group-hover:shadow-purple-primary/40 transition-all`}>
+                  {project.icon}
+                </div>
+
+                {/* Category */}
+                <p className="text-[10px] font-bold tracking-[0.3em] uppercase text-purple-soft mb-3 font-body">
+                  {project.category}
+                </p>
+
+                {/* Title */}
+                <h3 className="text-2xl font-display font-bold text-white mb-3 group-hover:text-purple-soft transition-colors">
+                  {project.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-sm text-text-muted font-light leading-relaxed mb-6 flex-grow">
+                  {project.desc}
+                </p>
+
+                {/* Tech stack */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tech.map((t) => (
+                    <span
+                      key={t}
+                      className="text-[9px] font-bold px-3 py-1.5 rounded-full bg-purple-primary/8 border border-purple-primary/15 text-purple-soft uppercase tracking-wider"
+                    >
+                      {t}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Links */}
+                <div className="flex gap-5 pt-6 border-t border-night-border">
+                  <a href="#" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
+                    <Github size={18} />
+                  </a>
+                  <a href="#" className="text-text-muted hover:text-purple-bright transition-all transform hover:scale-110">
+                    <ExternalLink size={18} />
+                  </a>
+                </div>
               </div>
-            </div>
-          </motion.div>
-        ))}
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );
