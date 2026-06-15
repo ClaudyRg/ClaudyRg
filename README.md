@@ -1,85 +1,114 @@
+<div align="center">
+  <!-- Custom Cyberpunk-style Logo SVG -->
+  <img src="claudyyyrg_logo.svg" alt="ClaudyyyRg" width="450" />
 
-# <p align="center">✨ CLAUDY RG — PORTFOLIO 2026</p>
+  <!-- Dynamic Typing SVG using Orbitron -->
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Go+%26+PHP+Systems+Developer;Next.js+%26+React+Frontend+Engineer;3D+Low-Poly+Asset+Modeler" alt="Typing SVG" />
+  </p>
+
+  <p align="center">
+    <a href="https://wakatime.com/@ClaudyRg"><img src="https://img.shields.io/badge/WakaTime-PHP%20%7C%20Go%20%7C%20TS-00ADD8?style=flat-square&logo=wakatime&logoColor=white" alt="WakaTime Stats"></a>
+    <a href="https://github.com/ClaudyRg"><img src="https://img.shields.io/badge/Minecraft-Bedrock%20Developer-007acc?style=flat-square&logo=minecraft&logoColor=white" alt="Minecraft Bedrock"></a>
+    <a href="https://github.com/ClaudyRg"><img src="https://img.shields.io/github/stars/ClaudyRg?style=flat-square&color=ff69b4&label=Stars" alt="GitHub Stars"></a>
+  </p>
+</div>
+
+---
+
+## 🪐 About Me
+
+Hello! I'm **Claudy**, a systems developer and server architect from Indonesia. I build high-performance distributed networks and gameplay engines for Minecraft Bedrock, alongside clean web frontends and custom 3D models.
+
+Most of my time is spent coding in **Go** (for proxy and state routing) and **PHP** (for Bedrock server gameplay nodes), with a focus on optimization, low-latency syncing, and custom client bindings.
+
+### 🚀 StarLight Development Focus
+* **Custom Gateway Routing:** Building custom session proxies in Go (`StarProxy`) to route players seamlessly across game instances.
+* **Monolithic Core & Game Engines:** Developing `StarCore` and writing custom duel and Bedwars match engines optimized to run with minimal server overhead.
+* **In-Memory Cache & State Sync:** Coordinating global states through a centralized Go coordinator (`StarObserver`) acting as a write shield to eliminate DB bottlenecks.
+* **3D Art & Cosmetics:** Modeling custom game entities, wings, pets, and cosmetics using Blender and Blockbench for custom Bedrock resource packs.
+
+---
+
+## 🛠️ The Tech Arsenal
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=go,php,nodejs,nextjs,react,ts,tailwind,mysql,redis,blender" alt="My Tech Stack" />
+</div>
+
+---
+
+## 🛰️ Active Operations
+
+### 🌌 [StarLight Network Ecosystem](https://github.com/STARLIGHT-NETWORK-ID)
+A premium, distributed Minecraft Bedrock network architecture. I design and maintain its critical components:
+
+* 📡 **`StarProxy`** — A custom session gateway written in **Go** handling high-concurrency packet routing between server instances.
+* 👁️ **`StarObserver`** — The state broker managing global sync, acting as the single db-write buffer and handling in-memory caching.
+* 📦 **`StarCore`** — Monolithic core framework written in **PHP (PocketMine-MP)**.
+* ⚔️ **`StarDuels` & `StarBedwars`** — Custom gameplay engines written in **PHP** featuring dynamic match setups, ELO matchmaking, and block restoration.
+* 🎨 **`StarCosmetic`** — Memory-efficient cosmetic attachment, custom wings, and pets rendering engine.
+* 🖥️ **`StarLight Web Portal`** — A modern web hub and store built with **Next.js & TailwindCSS** featuring full payment integrations.
+
+---
+
+## 📊 Performance Metrics
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&pause=1000&color=6B5CE7&background=0E0B16&center=true&vCenter=true&width=600&lines=FULL+STACK+DEVELOPER;CS+STUDENT;3D+ANIMATOR;UI%2FUX+DESIGNER" alt="Typing SVG" />
-  </a>
-</p>
-
----
-
-### 🌙 ABOUT ME
-
-> **NAME**: Claudy RG  
-> **LOCATION**: Indonesia 🇮🇩  
-> **ROLE**: Full Stack Developer • CS Student • 3D Animator • Designer  
-> **STACK**: Next.js, Go, PHP, Tailwind, Blender
-
-Full-stack developer and CS student who also happens to be obsessed with 3D animation and design. I handle everything — from writing backend logic to crafting interfaces that actually look good.
-
----
-
-### 🛠️ TECH STACK
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,js,ts,nextjs,react,tailwind,go,git,github,blender,linux,mysql&theme=dark" />
-  </a>
-</p>
-
----
-
-### 📊 GITHUB STATS
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&show_icons=true&bg_color=0E0B16&title_color=6B5CE7&text_color=B8B0D4&icon_color=8A5CFF&hide_border=true&count_private=true" alt="ClaudyRg's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ClaudyRg&layout=compact&bg_color=0E0B16&title_color=6B5CE7&text_color=B8B0D4&icon_color=8A5CFF&hide_border=true&count_private=true" alt="Top Langs" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ClaudyRg&theme=tokyonight&hide_border=true&ring=6B5CE7" alt="GitHub Streak" />
-</p>
-
----
-
-### 📁 FEATURED PROJECTS
-
-<p align="left">
-  <a href="https://github.com/ClaudyRg/StarLight-BedWars">
-    <img src="https://img.shields.io/badge/STARLIGHT--BEDWARS-SERVER--INFRASTRUCTURE-6B5CE7?style=for-the-badge&logo=github" alt="Bedwars" />
-  </a>
-  <br/>
-  <a href="https://github.com/ClaudyRg/StarLight-Website">
-    <img src="https://img.shields.io/badge/STARLIGHT--WEBSITE-WEB--PORTFOLIO-1C1828?style=for-the-badge&logo=next.js" alt="Portfolio Website" />
-  </a>
-  <br/>
   <a href="https://github.com/ClaudyRg">
-    <img src="https://img.shields.io/badge/ALL--PROJECTS-GITHUB-2A2534?style=for-the-badge&logo=github" alt="All Projects" />
+    <img src="https://streak-stats.demolab.com?user=ClaudyRg&theme=dracula&v=1" height="150" alt="streak card" />
+  </a>
+  <br><br> <a> 
+    <img src="https://github-readme-stats.vercel.app/api?username=ClaudyRg&theme=dracula&show_icons=true&hide_border=false&count_private=true"> 
   </a>
 </p>
+  
+---
+
+## 👥 Founders & Core Developers
+The duo behind the vision, design, and execution of StarLight Network:
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/ClaudyRg">
+        <img src="https://github.com/ClaudyRg.png" width="120px" alt="Claudy" style="border-radius: 50%;" />
+        <br />
+        <sub><b>Claudy</b></sub>
+      </a>
+      <br />
+      👑 <b>Lead Developer & Architect</b><br />
+      <i>Lead architect in charge of core network systems, high-concurrency game nodes, web applications, and backend database integrations.</i>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/Kwacyy">
+        <img src="https://github.com/Kwacyy.png" width="120px" alt="Valeska" style="border-radius: 50%;" />
+        <br />
+        <sub><b>Valeska</b></sub>
+      </a>
+      <br />
+      🌸 <b>Co-Developer & Interface Designer</b><br />
+      <i>Creative designer managing custom asset styling, fluid in-game UI menus, elegant web interfaces, refined UI/UX flows, and stylish visual identities across digital platforms.</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📬 CONNECT
+## 📬 Connect With Me
 
 <p align="left">
-  <a href="https://instagram.com/claudy_rg">
-    <img src="https://img.shields.io/badge/INSTAGRAM-6B5CE7?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://linkedin.com/in/claudyrg">
-    <img src="https://img.shields.io/badge/LINKEDIN-8A5CFF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <a href="mailto:claudyy.rg@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30" align="middle" alt="Gmail" /></a>
+  &nbsp;
+  <b>Email:</b> <code>claudyy.rg@gmail.com</code>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://discord.com/users/clau.rg77"><img src="https://skillicons.dev/icons?i=discord" width="30" align="middle" alt="Discord" /></a>
+  &nbsp;
+  <b>Discord:</b> <code>clau.rg77</code>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://instagram.com/clau.rg77"><img src="https://skillicons.dev/icons?i=instagram" width="30" align="middle" alt="Instagram" /></a>
+  &nbsp;
+  <b>Instagram:</b> <code>clau.rg77</code>
 </p>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=ClaudyRg&color=6B5CE7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</p>
 
----
-
-<p align="center">
-  <i>"Every pixel has a purpose."</i><br/>
-  Designed & Engineered by <b><a href="https://github.com/ClaudyRg">ClaudyRg</a></b>
-</p>
