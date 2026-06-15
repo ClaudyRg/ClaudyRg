@@ -90,7 +90,7 @@
   }
 
   body {
-    background: var(--background);
+    background: linear-gradient(180deg, #0E0B16 0%, #16112A 25%, #1C1635 50%, #16112A 75%, #0E0B16 100%);
     color: var(--foreground);
     @apply font-body font-light overflow-x-hidden min-h-screen;
   }
@@ -106,7 +106,7 @@
   position: fixed;
   inset: 0;
   z-index: -3;
-  background: linear-gradient(180deg, #0E0B16 0%, #120F1A 30%, #1A1528 60%, #120F1A 100%);
+  background: linear-gradient(180deg, #0E0B16 0%, #16112A 25%, #1C1635 50%, #16112A 75%, #0E0B16 100%);
   overflow: hidden;
 }
 
@@ -115,9 +115,10 @@
   inset: 0;
   z-index: -2;
   background: 
-    radial-gradient(ellipse 80% 50% at 20% 20%, rgba(107, 92, 231, 0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 70%, rgba(138, 92, 255, 0.04) 0%, transparent 50%),
-    radial-gradient(ellipse 90% 60% at 50% 50%, rgba(107, 92, 231, 0.03) 0%, transparent 70%);
+    radial-gradient(ellipse 80% 50% at 20% 20%, rgba(107, 92, 231, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 70%, rgba(138, 92, 255, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 50% at 50% 40%, rgba(107, 92, 231, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 30% at 70% 20%, rgba(168, 139, 250, 0.06) 0%, transparent 50%);
 }
 
 .nightscape-trees {
