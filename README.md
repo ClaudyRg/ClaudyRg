@@ -33,7 +33,7 @@ Most of my time is spent coding in **Go** (for proxy and state routing) and **PH
 ## 🛠️ The Tech Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,php,nodejs,nextjs,react,ts,tailwind,mysql,redis,blender" alt="My Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=go,php,kotlin,rust,ts,react,cpp,py,swift,nodejs,nextjs,tailwind,mysql,redis,blender" alt="My Tech Stack" />
 </div>
 
 ---
